@@ -12,4 +12,15 @@ public class Professor extends Pessoa {
     public void setSalario(int salario) {
         this.salario = salario;
     }
+
+    public String imprimirSaudacao() {
+        return "Olá professor: " + this.getNome();
+    }
+
+    public void calcularPontos(int minutosDeLeitura) {
+        int pontos = minutosDeLeitura * 3;
+        this.setPontos(pontos);
+    }
+
+
 }
