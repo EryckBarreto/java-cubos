@@ -1,4 +1,4 @@
-public class Aluno extends Pessoa{
+public class Aluno extends Pessoa implements Usuario {
     public Aluno(String nome, String cpf) {
         super(nome, cpf);
     }

@@ -11,5 +11,10 @@ public class Main {
         System.out.println(guido.imprimirSaudacao());
         System.out.println(joao.imprimirSaudacao());
 
+        double soma = Calculadora.soma(2,2);
+        System.out.println(soma);
+
+
+
     }
 }
